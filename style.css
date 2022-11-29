@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.mainHeader {
+    width: 100vw;
+    text-align: center;
+}
+
+.bundesLandReihen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+}
+
+.bundesLand {
+    position: relative;
+    width: calc(1024px/3);
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.bundesLand:hover {
+    cursor: pointer;
+}
+
+.bundeslandURL {
+    position: absolute; 
+    top: 40px; 
+    left: 40px; 
+    z-index: 1; 
+    background-color: rgba(39, 15, 175, 0.5);
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
